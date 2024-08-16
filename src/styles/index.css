@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-main {
+  max-width: 600px;
+}
+
+.app-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app-button:hover {
+  background-color: #21a1f1;
+}
